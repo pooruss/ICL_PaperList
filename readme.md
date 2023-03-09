@@ -161,6 +161,14 @@ This section contains the pilot works that might contributes to the prompt selec
 19. **Cross-Task Generalization via Natural Language Crowdsourcing Instructions**. ![](https://img.shields.io/badge/New-EAD8D9) ![](https://img.shields.io/badge/unseen_task_generalization-DCE7F1)
 
    *Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi*.  [[pdf](https://arxiv.org/abs/2104.08773)], [[project](https://github.com/allenai/natural-instructions)], 2022.03 ![](https://img.shields.io/badge/ACL2022-FAEFCA)
+   
+ 20. **Large Language Models Are Implicitly Topic Models: Explaining and Finding Good Demonstrations for In-Context Learning**. ![](https://img.shields.io/badge/New-EAD8D9)
+ 
+     *Xinyi Wang, Wanrong Zhu, William Yang Wang*.  [[pdf](https://arxiv.org/abs/2301.11916)], [[project](https://github.com/WANGXinyiLinda/concept-based-demonstration-selection)], 2023.01
+
+21. **Compositional Exemplars for In-context Learning**. ![](https://img.shields.io/badge/New-EAD8D9)
+ 
+     *Jiacheng Ye, Zhiyong Wu, Jiangtao Feng, Tao Yu, Lingpeng Kong*.  [[pdf](https://arxiv.org/pdf/2302.05698.pdf)], [[project](https://github.com/HKUNLP/icl-ceil)], 2023.02 ![](https://img.shields.io/badge/ArXiv-FAEFCA)
 
 ### Analysis of ICL
 
@@ -210,6 +218,11 @@ This section contains the pilot works that might contributes to the influence fa
 
    *Boshi Wang, Sewon Min, Xiang Deng, Jiaming Shen, You Wu, Luke Zettlemoyer, Huan Sun*.  [[pdf](https://arxiv.org/abs/2212.10001)], [[project](https://github.com/sunlab-osu/understanding-cot)], 2022.12, ![](https://img.shields.io/badge/arxiv-FAEFCA)    ![](https://img.shields.io/badge/New-EAD8D9)
 
+10. **How Does In-Context Learning Help Prompt Tuning?**
+
+      *Simeng Sun, Yang Liu, Dan Iter, Chenguang Zhu, Mohit Iyyer*.  [[pdf](https://arxiv.org/abs/2302.11521)], 2023.02, ![](https://img.shields.io/badge/arxiv-FAEFCA)
+
+
 #### Working Mechanism of ICL
 
 1. **An Explanation of In-context Learning as Implicit Bayesian Inference** ![](https://img.shields.io/badge/bayesian-DCE7F1)
@@ -247,17 +260,13 @@ This section contains the pilot works that might contributes to the influence fa
    *Damai Dai, Yutao Sun, Li Dong, Yaru Hao, Zhifang Sui, Furu Wei*.  [[pdf](https://arxiv.org/abs/2212.10559)], [[project](https://github.com/microsoft/LMOps)], 2022.12 ![](https://img.shields.io/badge/ArXiv-FAEFCA)
    ![](https://img.shields.io/badge/Analysis-EAD8D9)
 
-<!-- 10. **Can Large Language Models Truly Understand Prompts? A Case Study with Negated Prompts**. ![](https://img.shields.io/badge/New-EAD8D9) ![](https://img.shields.io/badge/negated-DCE7F1)
+8. **Transformers as Algorithms: Generalization and Implicit Model Selection in In-context Learning** ![](https://img.shields.io/badge/algorithm-DCE7F1)
 
-   *Joel Jang, Seonghyeon Ye, Minjoon Seo*.  [[pdf](link)], 2022.10, ![](https://img.shields.io/badge/ArXiv-FAEFCA) 
-![](https://img.shields.io/badge/None-EAD8D9) 
- -->
+   *Yingcong Li, M. Emrullah Ildiz, Dimitris S. Papailiopoulos, Samet Oymak*.  [[pdf](https://arxiv.org/abs/2301.07067)], 2023.1 ![](https://img.shields.io/badge/ArXiv-FAEFCA)
+   ![](https://img.shields.io/badge/Analysis-EAD8D9)
 
-<!-- 11.**Does GPT-3 Generate Empathetic Dialogues? A Novel In-Context Example Selection Method and Automatic Evaluation Metric for Empathetic Dialogue Generation**. ![](https://img.shields.io/badge/New-EAD8D9) ![](https://img.shields.io/badge/empathetic-DCE7F1)
 
-   *Young-Jun Lee, Chae-Gyun Lim, Ho-Jin Choi*.  [[pdf](link)], 2022.10, ![](https://img.shields.io/badge/COLING-FAEFCA) 
-![](https://img.shields.io/badge/None-EAD8D9) 
- -->
+
 
 ### Evaluation and Resources
 
@@ -285,7 +294,15 @@ This section contains the pilot works that might contributes to the evaluation o
    - how to learn task instructions from input output demonstrations
 5. **Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought**2022.10.3  ![](https://img.shields.io/badge/New-EAD8D9)
 6. **What is Not in the Context? Evaluation of Few-shot Learners with Informative Demonstrations** 2212.01692.pdf (arxiv.org)  ![](https://img.shields.io/badge/New-EAD8D9)
-7. **The Flan Collection: Designing Data and Methods for Effective** [[pdf](https://arxiv.org/pdf/2301.13688.pdf)], [[project](https://github.com/google-research/FLAN/tree/main/flan/v2)], 2023.1, ![](https://img.shields.io/badge/arxiv-FAEFCA)    ![](https://img.shields.io/badge/New-EAD8D9)
+7. **Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor**.
+
+   *Or Honovich, Thomas Scialom, Omer Levy, Timo Schick*. [[pdf](https://arxiv.org/pdf/2212.09689.pdf)], [[project](https://github.com/orhonovich/unnatural-instructions)], 2022.12, ![](https://img.shields.io/badge/arxiv-FAEFCA)    ![](https://img.shields.io/badge/New-EAD8D9)
+8. **Self-Instruct: Aligning Language Model with Self Generated Instructions**.
+
+   *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi*. [[pdf](https://arxiv.org/pdf/2212.10560.pdf)], [[project](https://github.com/yizhongw/self-instruct)], 2022.12, ![](https://img.shields.io/badge/arxiv-FAEFCA)    ![](https://img.shields.io/badge/New-EAD8D9)
+9. **The Flan Collection: Designing Data and Methods for Effective**.
+
+   *Shayne Longpre, Le Hou, Tu Vu, Albert Webson, Hyung Won Chung, Yi Tay, Denny Zhou, Quoc V. Le, Barret Zoph, Jason Wei, Adam Roberts*. [[pdf](https://arxiv.org/pdf/2301.13688.pdf)], [[project](https://github.com/google-research/FLAN/tree/main/flan/v2)], 2023.1, ![](https://img.shields.io/badge/arxiv-FAEFCA)    ![](https://img.shields.io/badge/New-EAD8D9)
 
 ### Application
 
@@ -306,7 +323,11 @@ This section contains the pilot works that expands the application of ICL.
    *Yukun Huang, Yanda Chen, Zhou Yu, Kathleen McKeown*.  [[pdf](https://arxiv.org/abs/2212.10670)], 2022.12, ![](https://img.shields.io/badge/conference-FAEFCA)
    ![](https://img.shields.io/badge/challenge-EAD8D9) ![](https://img.shields.io/badge/distillation-D8D0E1)
 
-5. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions**![](https://img.shields.io/badge/New-EAD8D9)
+4. **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions**![](https://img.shields.io/badge/New-EAD8D9)
+5. **Prompt-Augmented Linear Probing: Scaling Beyond the Limit of Few-shot In-Context Learner**.
+
+   *Hyunsoo Cho, Hyuhng Joon Kim, Junyeob Kim, Sang-Woo Lee, Sang-goo Lee, Kang Min Yoo, Taeuk Kim*. [[pdf](https://arxiv.org/abs/2212.10873)], 2022.12, ![](https://img.shields.io/badge/AAAI2023-FAEFCA)
+   ![](https://img.shields.io/badge/application-EAD8D9) ![](https://img.shields.io/badge/linear_probing-D8D0E1)
 
 ### Problems
 
@@ -331,11 +352,20 @@ This section contains the pilot works that might contributes to the challenges a
 
 [More Efficient In-Context Learning with GLaM](https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html)
 
-## How to contribute?
+## Open-source Toolkits
+**OpenICL**
+[[pdf](https://arxiv.org/abs/2303.02913)], [[project](https://github.com/Shark-NLP/OpenICL)], 2022.03
 
-- Add new papers to the corresponding part and mark with ![](https://img.shields.io/badge/New-EAD8D9) if the paper has not been included in our survey.
-- If the ![](https://img.shields.io/badge/New-EAD8D9) paper is included in the survey, please replace the ![](https://img.shields.io/badge/New-EAD8D9) to the specific section. e.g., ![](https://img.shields.io/badge/Analysis-EAD8D9), and add other basic info about this paper, such as authors, conference.
-- If you think the paper does not belong in your section, please move it to another section with the ![](https://img.shields.io/badge/New-EAD8D9) tag.
+OpenICL provides an easy interface for in-context learning, with many state-of-the-art retrieval and inference methods built in to facilitate systematic comparison of LMs and fast research prototyping. Users can easily incorporate different retrieval and inference methods, as well as different prompt instructions into their workflow.
+
+## Contribution
+
+Please feel free to contribute and promote your awesome work or other related works here! 
+If you recommend related works on ICL or make contributions on this repo, please provide your information (name, homepage) and we will add you to the contributor list😊.
+
+### Contributor list 
+We thank [Damai Dai](https://scholar.google.com/citations?user=8b-ysf0NWVoC&hl=zh-CN&oi=ao), [Qingxiu Dong](https://dqxiu.github.io/), [Lei Li](https://leili.site/), [Ce Zheng](https://scholar.google.com/citations?user=r7qFs7UAAAAJ&hl=zh-CN&oi=ao), [Shihao Liang](https://pooruss.github.io/-lshwebsite/), [Li Dong](http://dong.li/), [Siyin Wang](https://sinwang20.github.io/) for their repo contribution and paper recommendation.
+
 
 <!-- ## Citations -->
 ## Reference
@@ -353,8 +383,3 @@ Some papers are discussed in the following paper:
       primaryClass={cs.CL}
 }
 ```
-
-<!-- - **Recent todo:** 
-  - I will add the paper link, project link, date, conference for all the paper (except the new papers), please renew the , ![](https://img.shields.io/badge/section-EAD8D9) and  for each paper belongs to your section.
-  - Since there is a section title, why should we renew ![](https://img.shields.io/badge/section-EAD8D9)? This is for you to check and make sure that the paper is already added in your section.
-  - As there's no paper for intro, lei please add the basic info for all the ![](https://img.shields.io/badge/New-EAD8D9) papers, but please retain the ![](https://img.shields.io/badge/New-EAD8D9) tag, rather than replace it with the ![](https://img.shields.io/badge/XXXSection-EAD8D9). -->
